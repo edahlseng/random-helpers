@@ -7,6 +7,7 @@ function randomArraySubset(array) {
 			arraySubset.splice(randomIndex(arraySubset), 1);
 		}
 	}
+	return arraySubset;
 }
 
 function randomBoolean() {
