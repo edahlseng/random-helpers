@@ -2,7 +2,7 @@
 
 function randomArraySubset(array) {
 	var arraySubset = array.slice();
-	for (var i = array.length; i >= 0; i--) {
+	for (var i = array.length - 1; i >= 0; i--) {
 		if (randomBoolean()) {
 			arraySubset.splice(randomIndex(arraySubset), 1);
 		}

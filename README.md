@@ -18,7 +18,7 @@ API Usage
 var randomHelpers = require("random-helpers");
 
 console.log('Coin flip:');
-if (randomBoolean) console.log('Heads');
+if (randomHelpers.randomBoolean()) console.log('Heads');
 else console.log('Tails');
 ```
 
