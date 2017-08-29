@@ -28,7 +28,7 @@ function randomItem(array) {
 	return array[Math.floor(Math.random() * array.length)];
 }
 
-function randomNumber() {
+function randomNumber(min, max) {
 	return Math.random() * (max - min) + min;
 }
 
