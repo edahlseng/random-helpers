@@ -48,7 +48,6 @@ function randomVariableExcluding(typesToExclude) {
 	}
 
 	if (typesToExclude.indexOf("object") > -1) {
-		typesToExclude.push("function");
 		typesToExclude.push("array");
 		typesToExclude.push("plainObject");
 	}

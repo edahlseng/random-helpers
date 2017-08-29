@@ -84,7 +84,7 @@ Returns a random number in the range [`min`, `max`).
 
 ### randomHelpers.randomVariable()
 
-Returns a random variable, of type `boolean`, `null`, `undefined`, `number`, `string`, or `object`. If the variable is of type `object`, it will either be a `function`, `array`, or plain object.
+Returns a random variable, of type `boolean`, `null`, `undefined`, `number`, `string`, `function`, or `object`. If the variable is of type `object`, it will either be an `array`, or plain object.
 
 **Parameters:**
 None
@@ -97,4 +97,4 @@ Returns a random variable as in `randomHelpers.randomVariable`, but will not ret
 
 |Parameter|Type|Description|
 |---------|----|-----------|
-|typesToExclude|string or array of strings|The data types that the random variable should **not** be. Valid types include `boolean`, `null`, `undefined`, `number`, `string`, `object`, `function`, `array`, and `plainObject`. If `typesToExclude` includes `object`, then `function`, `array`, and `plainObject` are all implicitly excluded. If `typesToExclude` is undefined, then no data types will be excluded.|
+|typesToExclude|string or array of strings|The data types that the random variable should **not** be. Valid types include `boolean`, `null`, `undefined`, `number`, `string`, `function`, `object`, `array`, and `plainObject`. If `typesToExclude` includes `object`, then `array` and `plainObject` are both implicitly excluded. If `typesToExclude` is undefined, then no data types will be excluded.|
